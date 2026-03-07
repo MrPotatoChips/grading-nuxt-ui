@@ -253,8 +253,6 @@ import { isEmpty } from 'lodash'
 import * as yup from 'yup'
 
 import MRoles from '@/mixins/accounts/roles'
-import MAreas from '@/mixins/locations/areas'
-import MClusters from '@/mixins/locations/clusters'
 
 import { SAdminUsers } from '@/services/admin'
 import { overlays } from '@/composables/overlays'
@@ -274,9 +272,7 @@ export default {
   },
 
   mixins: [
-    MRoles,
-    MAreas,
-    MClusters
+    MRoles
   ],
 
   data () {
@@ -305,8 +301,6 @@ export default {
         }).label('password confirmation'),
         provinces: yup.array().of(yup.string()).nullable().label('provinces'),
         role_id: yup.string().required().label('role'),
-        area_id: yup.string().required().label('area'),
-        cluster_id: yup.string().notRequired().label('cluster')
       }),
       formUser: {
         id: '',
@@ -319,8 +313,6 @@ export default {
         password: '',
         password_confirmation: '',
         role_id: '',
-        area_id: '',
-        cluster_id: '',
         active: true
       }
     }
@@ -329,10 +321,6 @@ export default {
   watch: {
     'selected.role' (role) {
       this.formUser.role_id = role
-    },
-
-    'selected.area' (area) {
-      this.formUser.area_id = area
     }
   },
 
@@ -363,14 +351,10 @@ export default {
         username: '',
         password: '',
         role_id: '',
-        area_id: '',
-        cluster_id: '',
         active: true
       }
 
-      this.getRoles(this).then(() => {
-        this.getAreas(this)
-      })
+      this.getRoles(this)
 
       this.modalUser = true
     },
@@ -389,17 +373,11 @@ export default {
         username: user.username,
         password: user.password,
         role_id: '',
-        area_id: '',
-        cluster_id: '',
         active: Number(user.active) === 1
       }
 
       this.getRoles(this).finally(() => {
         this.selected.role = user.role_id
-
-        this.getAreas(this).finally(() => {
-          this.selected.area = user.area_id
-        })
       })
 
       this.modalUser = true

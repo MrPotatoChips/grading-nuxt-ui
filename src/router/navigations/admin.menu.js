@@ -80,32 +80,50 @@ const MAdminMaintenances = [
   {
     label: 'Colleges',
     description: 'Manage colleges and their information',
-    icon: 'i-lucide-file-question-mark'
+    icon: 'i-lucide-graduation-cap',
+    to: {
+      name: 'admin.maintenances.colleges'
+    }
   },
   {
     label: 'Courses',
     description: 'Manage courses and their information',
-    icon: 'i-lucide-file-question-mark'
+    icon: 'i-lucide-book-open-text',
+    to: {
+      name: 'admin.maintenances.courses'
+    }
   },
   {
     label: 'Year Levels',
     description: 'Manage year levels and their information',
-    icon: 'i-lucide-file-question-mark'
+    icon: 'i-lucide-layers',
+    to: {
+      name: 'admin.maintenances.year-levels'
+    }
   },
   {
     label: 'Semesters',
     description: 'Manage semesters and their information',
-    icon: 'i-lucide-file-question-mark'
+    icon: 'i-lucide-calendar-range',
+    to: {
+      name: 'admin.maintenances.semesters'
+    }
   },
   {
     label: 'Sections',
     description: 'Manage sections and their information',
-    icon: 'i-lucide-file-question-mark'
+    icon: 'i-lucide-grid-2x2',
+    to: {
+      name: 'admin.maintenances.sections'
+    }
   },
   {
     label: 'Subjects',
-    description: 'Manage colleges and their information',
-    icon: 'i-lucide-file-question-mark'
+    description: 'Manage subjects and their information',
+    icon: 'i-lucide-notebook-pen',
+    to: {
+      name: 'admin.maintenances.subjects'
+    }
   }
 ]
 
