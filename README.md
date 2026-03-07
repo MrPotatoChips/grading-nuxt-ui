@@ -66,14 +66,3 @@ Node.js version       v24.7.0
 nuxt/cli version       3.31.3
 Package manager   npm 11.5.1
 Builder                    vite 6.4.1
-
-
-1. GO TO node_modules/data-validation-xlsx/xlsx.js
-2. find the function with a name of write_ws_xml_datavalidation
-3. then add the code below after the if(validation.type=="list") statement
-    else if(validation.type=="list-in-sheet"){
-        o += '<dataValidation type="list" allowBlank="1" sqref="' + validation.sqref + '" showInputMessage="1" showErrorMessage="1">';
-        o += '<formula1>' + validation.values + '</formula1>';
-        o += '</dataValidation>';
-    }
-4. run build

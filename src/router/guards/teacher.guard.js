@@ -3,7 +3,7 @@ import { useAuth } from '@/stores/auth.store'
 export default function (to, from, next) {
   const { user } = useAuth()
 
-  if (!user || user.role !== 'dga') {
+  if (!user || user.role !== 'teacher') {
     // Redirect to appropriate dashboard or login
     if (user && user.role) {
       next({ name: `${user.role}.dashboard` })

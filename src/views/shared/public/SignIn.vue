@@ -10,14 +10,14 @@
         <UColorModeButton />
       </div>
       <div class="flex flex-col items-center mb-8">
-          <UIcon name="i-lucide-sprout" class="size-14 text-secondary-300 dark:text-secondary-300" />
+          <UIcon name="i-lucide-university" class="size-14 text-secondary-300 dark:text-secondary-300" />
         <h2
           class="text-3xl font-bold text-gray-600 dark:text-white mb-2"
         >
-          CRMS
+          CGS
         </h2>
         <p class="text-gray-400 font-semibold text-sm">
-          Customer Relationship Management System
+          College Grading System
         </p>
       </div>
       <UForm

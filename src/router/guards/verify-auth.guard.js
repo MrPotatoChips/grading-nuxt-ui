@@ -1,7 +1,7 @@
 import { SSharedAuth } from "@/services/shared"
 import { useAuth } from "@/stores/auth.store"
 
-export default async (_to, _from, navigate) => {
+export default async function (_to, _from, navigate) {
   const { user, token, setUser } = useAuth()
 
   if (!user?.role && token) {

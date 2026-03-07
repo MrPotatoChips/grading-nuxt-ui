@@ -56,7 +56,7 @@
       >
         <div>
           <UBreadcrumb
-            class="py-1.5"
+            class="py-1.5 #data-[state='active']:bg-transparent"
             :items="router.currentRoute.value.meta?.breadcrumbs"
           />
         </div>

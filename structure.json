@@ -1,0 +1,1890 @@
+{
+  "name": "grading-nuxt-ui",
+  "path": "d:\\Projects\\react\\partime\\grading-system\\grading-nuxt-ui",
+  "type": "directory",
+  "children": [
+    {
+      "name": ".agent",
+      "type": "folder",
+      "children": [
+        {
+          "name": "skills",
+          "type": "folder",
+          "children": [
+            {
+              "name": "nuxt-ui",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "references",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "layouts",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "chat.md",
+                          "type": "file"
+                        },
+                        {
+                          "name": "dashboard.md",
+                          "type": "file"
+                        },
+                        {
+                          "name": "docs.md",
+                          "type": "file"
+                        },
+                        {
+                          "name": "editor.md",
+                          "type": "file"
+                        },
+                        {
+                          "name": "page.md",
+                          "type": "file"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "components.md",
+                      "type": "file"
+                    },
+                    {
+                      "name": "composables.md",
+                      "type": "file"
+                    },
+                    {
+                      "name": "theming.md",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "SKILL.md",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": ".agents",
+      "type": "folder",
+      "children": [
+        {
+          "name": "skills",
+          "type": "folder",
+          "children": [
+            {
+              "name": "nuxt-ui",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "references",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "layouts",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "chat.md",
+                          "type": "file"
+                        },
+                        {
+                          "name": "dashboard.md",
+                          "type": "file"
+                        },
+                        {
+                          "name": "docs.md",
+                          "type": "file"
+                        },
+                        {
+                          "name": "editor.md",
+                          "type": "file"
+                        },
+                        {
+                          "name": "page.md",
+                          "type": "file"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "components.md",
+                      "type": "file"
+                    },
+                    {
+                      "name": "composables.md",
+                      "type": "file"
+                    },
+                    {
+                      "name": "theming.md",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "SKILL.md",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": ".github",
+      "type": "folder",
+      "children": [
+        {
+          "name": "agents",
+          "type": "folder",
+          "children": [
+            {
+              "name": "custom-agent.agent.md",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "instructions",
+          "type": "folder",
+          "children": [
+            {
+              "name": "agent.instructions.md",
+              "type": "file"
+            },
+            {
+              "name": "nuxtui.information.md",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "copilot-instructions.md",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "name": "android",
+      "type": "folder",
+      "children": [
+        {
+          "name": "app",
+          "type": "folder",
+          "children": [
+            {
+              "name": "src",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "androidTest",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "java",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "com",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "getcapacitor",
+                              "type": "folder",
+                              "children": [
+                                {
+                                  "name": "myapp",
+                                  "type": "folder",
+                                  "children": [
+                                    {
+                                      "name": "ExampleInstrumentedTest.java",
+                                      "type": "file"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "main",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "java",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "com",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "nuxt",
+                              "type": "folder",
+                              "children": [
+                                {
+                                  "name": "app",
+                                  "type": "folder",
+                                  "children": [
+                                    {
+                                      "name": "MainActivity.java",
+                                      "type": "file"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "res",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "drawable",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "ic_launcher_background.xml",
+                              "type": "file"
+                            },
+                            {
+                              "name": "splash.png",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "drawable-land-hdpi",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "splash.png",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "drawable-land-mdpi",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "splash.png",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "drawable-land-xhdpi",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "splash.png",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "drawable-land-xxhdpi",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "splash.png",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "drawable-land-xxxhdpi",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "splash.png",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "drawable-port-hdpi",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "splash.png",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "drawable-port-mdpi",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "splash.png",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "drawable-port-xhdpi",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "splash.png",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "drawable-port-xxhdpi",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "splash.png",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "drawable-port-xxxhdpi",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "splash.png",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "drawable-v24",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "ic_launcher_foreground.xml",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "layout",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "activity_main.xml",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "mipmap-anydpi-v26",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "ic_launcher.xml",
+                              "type": "file"
+                            },
+                            {
+                              "name": "ic_launcher_round.xml",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "mipmap-hdpi",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "ic_launcher.png",
+                              "type": "file"
+                            },
+                            {
+                              "name": "ic_launcher_foreground.png",
+                              "type": "file"
+                            },
+                            {
+                              "name": "ic_launcher_round.png",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "mipmap-mdpi",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "ic_launcher.png",
+                              "type": "file"
+                            },
+                            {
+                              "name": "ic_launcher_foreground.png",
+                              "type": "file"
+                            },
+                            {
+                              "name": "ic_launcher_round.png",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "mipmap-xhdpi",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "ic_launcher.png",
+                              "type": "file"
+                            },
+                            {
+                              "name": "ic_launcher_foreground.png",
+                              "type": "file"
+                            },
+                            {
+                              "name": "ic_launcher_round.png",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "mipmap-xxhdpi",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "ic_launcher.png",
+                              "type": "file"
+                            },
+                            {
+                              "name": "ic_launcher_foreground.png",
+                              "type": "file"
+                            },
+                            {
+                              "name": "ic_launcher_round.png",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "mipmap-xxxhdpi",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "ic_launcher.png",
+                              "type": "file"
+                            },
+                            {
+                              "name": "ic_launcher_foreground.png",
+                              "type": "file"
+                            },
+                            {
+                              "name": "ic_launcher_round.png",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "values",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "ic_launcher_background.xml",
+                              "type": "file"
+                            },
+                            {
+                              "name": "strings.xml",
+                              "type": "file"
+                            },
+                            {
+                              "name": "styles.xml",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "xml",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "file_paths.xml",
+                              "type": "file"
+                            },
+                            {
+                              "name": "network_security_config.xml",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "AndroidManifest.xml",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "test",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "java",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "com",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "getcapacitor",
+                              "type": "folder",
+                              "children": [
+                                {
+                                  "name": "myapp",
+                                  "type": "folder",
+                                  "children": [
+                                    {
+                                      "name": "ExampleUnitTest.java",
+                                      "type": "file"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": ".gitignore",
+              "type": "file"
+            },
+            {
+              "name": "build.gradle",
+              "type": "file"
+            },
+            {
+              "name": "capacitor.build.gradle",
+              "type": "file"
+            },
+            {
+              "name": "proguard-rules.pro",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "gradle",
+          "type": "folder",
+          "children": [
+            {
+              "name": "wrapper",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "gradle-wrapper.jar",
+                  "type": "file"
+                },
+                {
+                  "name": "gradle-wrapper.properties",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": ".gitignore",
+          "type": "file"
+        },
+        {
+          "name": "build.gradle",
+          "type": "file"
+        },
+        {
+          "name": "capacitor.settings.gradle",
+          "type": "file"
+        },
+        {
+          "name": "gradle.properties",
+          "type": "file"
+        },
+        {
+          "name": "gradlew",
+          "type": "file"
+        },
+        {
+          "name": "gradlew.bat",
+          "type": "file"
+        },
+        {
+          "name": "settings.gradle",
+          "type": "file"
+        },
+        {
+          "name": "variables.gradle",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "name": "e2e",
+      "type": "folder",
+      "children": [
+        {
+          "name": "vue.spec.js",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "name": "public",
+      "type": "folder",
+      "children": [
+        {
+          "name": "android-chrome-192x192.png",
+          "type": "file"
+        },
+        {
+          "name": "android-chrome-512x512.png",
+          "type": "file"
+        },
+        {
+          "name": "apple-touch-icon.png",
+          "type": "file"
+        },
+        {
+          "name": "favicon copy.ico",
+          "type": "file"
+        },
+        {
+          "name": "favicon-16x16.png",
+          "type": "file"
+        },
+        {
+          "name": "favicon-32x32.png",
+          "type": "file"
+        },
+        {
+          "name": "favicon.ico",
+          "type": "file"
+        },
+        {
+          "name": "site.webmanifest",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "name": "src",
+      "type": "folder",
+      "children": [
+        {
+          "name": "__tests__",
+          "type": "folder",
+          "children": [
+            {
+              "name": "HelloWorld.spec.js",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "assets",
+          "type": "folder",
+          "children": [
+            {
+              "name": "css",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "animations.css",
+                  "type": "file"
+                },
+                {
+                  "name": "app.css",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "images",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "backgrounds",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "farm-evening.png",
+                      "type": "file"
+                    },
+                    {
+                      "name": "farm.png",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "aljay-logo.png",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "components",
+          "type": "folder",
+          "children": [
+            {
+              "name": "core",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "AppFooter.vue",
+                  "type": "file"
+                },
+                {
+                  "name": "AppHeader.vue",
+                  "type": "file"
+                },
+                {
+                  "name": "AppSidebar.vue",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "crms",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "CrmsAttachment.vue",
+                  "type": "file"
+                },
+                {
+                  "name": "CrmsCard.vue",
+                  "type": "file"
+                },
+                {
+                  "name": "CrmsSimpleCard.vue",
+                  "type": "file"
+                },
+                {
+                  "name": "CrmsTimeline.vue",
+                  "type": "file"
+                },
+                {
+                  "name": "README.md",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "grid",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "VGrid.vue",
+                  "type": "file"
+                },
+                {
+                  "name": "VGridOld.vue",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "layouts",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "PiniaLayout.vue",
+                  "type": "file"
+                },
+                {
+                  "name": "PrivateLayout.vue",
+                  "type": "file"
+                },
+                {
+                  "name": "PublicLayout.vue",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "miscs",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "Placeholder.vue",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "table",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "mixins",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "utils.js",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "VTable.vue",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "HelloWorld.vue",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "composables",
+          "type": "folder",
+          "children": [
+            {
+              "name": "date-formatters.js",
+              "type": "file"
+            },
+            {
+              "name": "fuse.js",
+              "type": "file"
+            },
+            {
+              "name": "overlays.js",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "mixins",
+          "type": "folder",
+          "children": [
+            {
+              "name": "accounts",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "dg-agents.js",
+                  "type": "file"
+                },
+                {
+                  "name": "growers.js",
+                  "type": "file"
+                },
+                {
+                  "name": "roles.js",
+                  "type": "file"
+                },
+                {
+                  "name": "users.js",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "dgs",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "tasks.js",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "growers",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "crops.js",
+                  "type": "file"
+                },
+                {
+                  "name": "farms.js",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "locations",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "areas.js",
+                  "type": "file"
+                },
+                {
+                  "name": "barangays.js",
+                  "type": "file"
+                },
+                {
+                  "name": "clusters.js",
+                  "type": "file"
+                },
+                {
+                  "name": "municipalities.js",
+                  "type": "file"
+                },
+                {
+                  "name": "provinces.js",
+                  "type": "file"
+                },
+                {
+                  "name": "regions.js",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "maintenances",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "activities.js",
+                  "type": "file"
+                },
+                {
+                  "name": "crop-categories.js",
+                  "type": "file"
+                },
+                {
+                  "name": "crops.js",
+                  "type": "file"
+                },
+                {
+                  "name": "document-types.js",
+                  "type": "file"
+                },
+                {
+                  "name": "product-categories.js",
+                  "type": "file"
+                },
+                {
+                  "name": "product-groups.js",
+                  "type": "file"
+                },
+                {
+                  "name": "products.js",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "plugins",
+          "type": "folder",
+          "children": [
+            {
+              "name": "axios.js",
+              "type": "file"
+            },
+            {
+              "name": "globals.js",
+              "type": "file"
+            },
+            {
+              "name": "index.js",
+              "type": "file"
+            },
+            {
+              "name": "laravel-echo.js",
+              "type": "file"
+            },
+            {
+              "name": "yup.js",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "router",
+          "type": "folder",
+          "children": [
+            {
+              "name": "guards",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "admin.guard.js",
+                  "type": "file"
+                },
+                {
+                  "name": "auth.guard.js",
+                  "type": "file"
+                },
+                {
+                  "name": "dg-agent.guard.js",
+                  "type": "file"
+                },
+                {
+                  "name": "guest.guard.js",
+                  "type": "file"
+                },
+                {
+                  "name": "student.guard.js",
+                  "type": "file"
+                },
+                {
+                  "name": "teacher.guard.js",
+                  "type": "file"
+                },
+                {
+                  "name": "verify-auth.guard.js",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "navigations",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "admin.menu.js",
+                  "type": "file"
+                },
+                {
+                  "name": "index.js",
+                  "type": "file"
+                },
+                {
+                  "name": "student.menu.js",
+                  "type": "file"
+                },
+                {
+                  "name": "teacher.menu.js",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "private",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "admin.routes.js",
+                  "type": "file"
+                },
+                {
+                  "name": "shared.routes.js",
+                  "type": "file"
+                },
+                {
+                  "name": "student.routes.js",
+                  "type": "file"
+                },
+                {
+                  "name": "teacher.routes.js",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "combined.routes.js",
+              "type": "file"
+            },
+            {
+              "name": "index.js",
+              "type": "file"
+            },
+            {
+              "name": "shared.routes.js",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "services",
+          "type": "folder",
+          "children": [
+            {
+              "name": "admin",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "accounts",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "roles.service.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "users.service.js",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "locations",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "barangays.service.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "municipalities.service.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "provinces.service.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "regions.service.js",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "maintenances",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "activities.service.js",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "dashboard.service.js",
+                  "type": "file"
+                },
+                {
+                  "name": "index.js",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "dg-agent",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "grower-managements",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "crop-histories.service.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "documents.service.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "farms.service.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "interactions.service.js",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "dashboard.service.js",
+                  "type": "file"
+                },
+                {
+                  "name": "growers.service.js",
+                  "type": "file"
+                },
+                {
+                  "name": "index.js",
+                  "type": "file"
+                },
+                {
+                  "name": "programs.service.js",
+                  "type": "file"
+                },
+                {
+                  "name": "task-events.service.js",
+                  "type": "file"
+                },
+                {
+                  "name": "tasks.service.js",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "shared",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "lists",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "accounts.service.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "growers.service.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "index.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "locations.service.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "maintenances.service.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "tasks.service.js",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "uploads",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "grower-document.service.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "grower-events.service.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "grower-interaction.service.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "grower-program.service.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "marketing-program.service.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "other-events.service.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "profile.service.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "program-receipt.service.js",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "attachments.service.js",
+                  "type": "file"
+                },
+                {
+                  "name": "auth.service.js",
+                  "type": "file"
+                },
+                {
+                  "name": "index.js",
+                  "type": "file"
+                },
+                {
+                  "name": "sso.service.js",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "student",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "dashboard.service.js",
+                  "type": "file"
+                },
+                {
+                  "name": "index.js",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "teacher",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "accounts",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "students.service.js",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "maintenances",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "activities.service.js",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "dashboard.service.js",
+                  "type": "file"
+                },
+                {
+                  "name": "index.js",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "stores",
+          "type": "folder",
+          "children": [
+            {
+              "name": "auth.store.js",
+              "type": "file"
+            },
+            {
+              "name": "settings.store.js",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "views",
+          "type": "folder",
+          "children": [
+            {
+              "name": "admin",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "accounts",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "roles",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "AdminRoleCrud.vue",
+                          "type": "file"
+                        },
+                        {
+                          "name": "AdminRoleTable.vue",
+                          "type": "file"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "users",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "provinces",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "AdminUserProvinceCrud.vue",
+                              "type": "file"
+                            },
+                            {
+                              "name": "AdminUserProvinceTable.vue",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "AdminUserCrud.vue",
+                          "type": "file"
+                        },
+                        {
+                          "name": "AdminUserProvinces.vue",
+                          "type": "file"
+                        },
+                        {
+                          "name": "AdminUserTable.vue",
+                          "type": "file"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "AdminRoles.vue",
+                      "type": "file"
+                    },
+                    {
+                      "name": "AdminUsers.vue",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "locations",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "barangays",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "AdminBarangayCrud.vue",
+                          "type": "file"
+                        },
+                        {
+                          "name": "AdminBarangayTable.vue",
+                          "type": "file"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "municipalities",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "AdminMunicipalityCrud.vue",
+                          "type": "file"
+                        },
+                        {
+                          "name": "AdminMunicipalityTable.vue",
+                          "type": "file"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "provinces",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "AdminProvinceCrud.vue",
+                          "type": "file"
+                        },
+                        {
+                          "name": "AdminProvinceTable.vue",
+                          "type": "file"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "regions",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "AdminRegionCrud.vue",
+                          "type": "file"
+                        },
+                        {
+                          "name": "AdminRegionTable.vue",
+                          "type": "file"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "AdminBarangays.vue",
+                      "type": "file"
+                    },
+                    {
+                      "name": "AdminMunicipalities.vue",
+                      "type": "file"
+                    },
+                    {
+                      "name": "AdminProvinces.vue",
+                      "type": "file"
+                    },
+                    {
+                      "name": "AdminRegions.vue",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "maintenances",
+                  "type": "folder"
+                },
+                {
+                  "name": "AdminDashboard.vue",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "dga",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "growers",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "managements",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "crop-histories",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "DGACropHistoryCrud.vue",
+                              "type": "file"
+                            },
+                            {
+                              "name": "DGACropHistoryTable.vue",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "documents",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "DGADocumentCrud.vue",
+                              "type": "file"
+                            },
+                            {
+                              "name": "DGADocumentTable.vue",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "farms",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "DGAFarmCrud.vue",
+                              "type": "file"
+                            },
+                            {
+                              "name": "DGAFarmTable.vue",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "interactions",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "DGAInteractionCrud.vue",
+                              "type": "file"
+                            },
+                            {
+                              "name": "DGAInteractionTable.vue",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "DGACropHistories.vue",
+                          "type": "file"
+                        },
+                        {
+                          "name": "DGADocuments.vue",
+                          "type": "file"
+                        },
+                        {
+                          "name": "DGAFarms.vue",
+                          "type": "file"
+                        },
+                        {
+                          "name": "DGAInformations.vue",
+                          "type": "file"
+                        },
+                        {
+                          "name": "DGAInteractions.vue",
+                          "type": "file"
+                        },
+                        {
+                          "name": "DGAManagementsWrapper.vue",
+                          "type": "file"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "DGAGrowerCrud.vue",
+                      "type": "file"
+                    },
+                    {
+                      "name": "DGAGrowerTable.vue",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "task-events",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "components",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "DGATaskEvent.vue",
+                          "type": "file"
+                        },
+                        {
+                          "name": "DGATaskEventAttachment.vue",
+                          "type": "file"
+                        },
+                        {
+                          "name": "DGATaskEventCopy.vue",
+                          "type": "file"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "DGATaskEventCrud.vue",
+                      "type": "file"
+                    },
+                    {
+                      "name": "DGATaskEventGrid.vue",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "tasks",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "components",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "DGATask.vue",
+                          "type": "file"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "DGATaskEventCrud.vue",
+                      "type": "file"
+                    },
+                    {
+                      "name": "DGATaskGrid.vue",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "DGADashboard.vue",
+                  "type": "file"
+                },
+                {
+                  "name": "DGAGrowerPrograms.vue",
+                  "type": "file"
+                },
+                {
+                  "name": "DGAGrowers.vue",
+                  "type": "file"
+                },
+                {
+                  "name": "DGATaskEvents.vue",
+                  "type": "file"
+                },
+                {
+                  "name": "DGATasks.vue",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "shared",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "private",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "account-settings",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "ChangePassword.vue",
+                          "type": "file"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "SharedAccountSettings.vue",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "public",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "SignIn.vue",
+                      "type": "file"
+                    },
+                    {
+                      "name": "SignInCopy.vue",
+                      "type": "file"
+                    },
+                    {
+                      "name": "SingleSignOn.vue",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "404.vue",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "student",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "StudentDashboard.vue",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "teacher",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "TeacherDashboard.vue",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "HomeView.vue",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "App.vue",
+          "type": "file"
+        },
+        {
+          "name": "main.js",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "name": ".editorconfig",
+      "type": "file"
+    },
+    {
+      "name": ".env.example",
+      "type": "file"
+    },
+    {
+      "name": ".gitattributes",
+      "type": "file"
+    },
+    {
+      "name": ".gitignore",
+      "type": "file"
+    },
+    {
+      "name": ".nvmrc",
+      "type": "file"
+    },
+    {
+      "name": ".oxlintrc.json",
+      "type": "file"
+    },
+    {
+      "name": ".prettierrc.json",
+      "type": "file"
+    },
+    {
+      "name": "README.md",
+      "type": "file"
+    },
+    {
+      "name": "capacitor.config.ts",
+      "type": "file"
+    },
+    {
+      "name": "eslint.config.js",
+      "type": "file"
+    },
+    {
+      "name": "index.html",
+      "type": "file"
+    },
+    {
+      "name": "jsconfig.json",
+      "type": "file"
+    },
+    {
+      "name": "package-lock.json",
+      "type": "file"
+    },
+    {
+      "name": "package.json",
+      "type": "file"
+    },
+    {
+      "name": "playwright.config.js",
+      "type": "file"
+    },
+    {
+      "name": "summary.md",
+      "type": "file"
+    },
+    {
+      "name": "vite.config.js",
+      "type": "file"
+    },
+    {
+      "name": "vitest.config.js",
+      "type": "file"
+    }
+  ],
+  "metadata": {
+    "generated": "2026-03-07T09:01:38.732Z",
+    "generator": "FileTree Pro Extension",
+    "version": "0.2.0",
+    "showIcons": false,
+    "maxDepth": 10
+  }
+}
