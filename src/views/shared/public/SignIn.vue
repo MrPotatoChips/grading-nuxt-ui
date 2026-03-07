@@ -124,6 +124,8 @@ export default {
                 ({ data: { role } }) => {
                   this.$router.push({
                     name: `${role?.role_code}.dashboard`
+                  }, () => {
+                    this.state.busy = false
                   })
                 }
               )
@@ -131,6 +133,7 @@ export default {
           }
         )
         .catch(({ message }) => {
+          this.state.busy = false
           if (message && message.errors) {
             const validationError = Object.keys(message.errors).map(name => ({
               name,
@@ -138,9 +141,6 @@ export default {
             }))
             this.$refs.formSignIn.setErrors(validationError)
           }
-        })
-        .finally(() => {
-          this.state.busy = false
         })
     }
   }

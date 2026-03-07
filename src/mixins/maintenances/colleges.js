@@ -5,6 +5,9 @@ import QUERY from 'lodash'
 export default {
   data () {
     return {
+      filterable: {
+        college: true
+      },
       fetching: {
         colleges: false
       },
@@ -22,15 +25,20 @@ export default {
 
   methods: {
 
-    async getColleges ({ options, fetching, selected }, search = '') {
+    async getColleges ({ options, fetching, selected, filterable }, search = '') {
       fetching.colleges = true
       selected.college = ''
 
-      const filters = {
-        search,
-        province_id: selected?.province || '',
-        municipality_id: selected?.municipality || '',
-        barangay_id: selected?.barangay || ''
+      let filters = {
+        search
+      }
+
+      if (filterable.college) {
+        filters = Object.assig(filters, {
+          province_id: selected?.province || '',
+          municipality_id: selected?.municipality || '',
+          barangay_id: selected?.barangay || ''
+        })
       }
 
       return SSharedList.getColleges(filters).then(
@@ -49,7 +57,7 @@ export default {
     },
 
     searchCollegesProvider: QUERY.debounce(
-      ({ options, fetching, selected }, search) => {
+      ({ options, fetching, selected, filterable }, search) => {
         const filteredOptions = fuseFilter(search, options.colleges, {
           keys: ['college_name']
         })
@@ -58,11 +66,16 @@ export default {
           fetching.colleges = true
           selected.college = ''
 
-          const filters = {
-            search,
-            province_id: selected?.province || '',
-            municipality_id: selected?.municipality || '',
-            barangay_id: selected?.barangay || ''
+          let filters = {
+            search
+          }
+
+          if (filterable.college) {
+            filters = Object.assig(filters, {
+              province_id: selected?.province || '',
+              municipality_id: selected?.municipality || '',
+              barangay_id: selected?.barangay || ''
+            })
           }
 
           SSharedList.getColleges(filters).then(
