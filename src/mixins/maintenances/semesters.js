@@ -13,7 +13,7 @@ export default {
       },
       selected: {
         semester: '',
-        year: ''
+        yearLevel: ''
       },
       editable: {
         semester: ''
@@ -22,8 +22,8 @@ export default {
   },
 
   watch: {
-    'selected.year' (year) {
-      if (year) {
+    'selected.yearLevel' (yearLevel) {
+      if (yearLevel) {
         this.getSemesters(this).finally(() => {
           if (this.editable.semester) {
             this.selected.semester = this.editable.semester
@@ -46,7 +46,7 @@ export default {
 
       const filters = {
         search,
-        year_id: selected?.year || ''
+        year_level_id: selected?.yearLevel || ''
       }
 
       return SSharedList.getSemesters(filters).then(
@@ -76,7 +76,7 @@ export default {
 
           const filters = {
             search,
-            year_id: selected?.year || ''
+            year_level_id: selected?.yearLevel || ''
           }
 
           SSharedList.getSemesters(filters).then(

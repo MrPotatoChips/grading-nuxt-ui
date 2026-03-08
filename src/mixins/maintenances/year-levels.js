@@ -12,11 +12,11 @@ export default {
         yearLevels: []
       },
       selected: {
-        year: '',
+        yearLevel: '',
         course: ''
       },
       editable: {
-        year: ''
+        yearLevel: ''
       }
     }
   },
@@ -25,14 +25,14 @@ export default {
     'selected.course' (course) {
       if (course) {
         this.getYearLevels(this).finally(() => {
-          if (this.editable.year) {
-            this.selected.year = this.editable.year
+          if (this.editable.yearLevel) {
+            this.selected.yearLevel = this.editable.yearLevel
 
-            this.editable.year = ''
+            this.editable.yearLevel = ''
           }
         })
       } else {
-        this.selected.year = ''
+        this.selected.yearLevel = ''
         this.options.yearLevels = []
       }
     }
@@ -42,7 +42,7 @@ export default {
 
     async getYearLevels ({ options, fetching, selected }, search = '') {
       fetching.yearLevels = true
-      selected.year = ''
+      selected.yearLevel = ''
 
       const filters = {
         search,
@@ -72,7 +72,7 @@ export default {
 
         if (filteredOptions.length < 1) {
           fetching.yearLevels = true
-          selected.year = ''
+          selected.yearLevel = ''
 
           const filters = {
             search,

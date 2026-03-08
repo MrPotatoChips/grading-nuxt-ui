@@ -13,7 +13,7 @@
         label="Year Levels"
       >
         <USelect
-          v-model="tableSemesters.filters.year"
+          v-model="tableSemesters.filters.year_level"
           value-key="id"
           label-key="year_name"
           :items="filterYearLevels"
@@ -77,7 +77,7 @@ export default {
         },
         filters: {
           search: '',
-          year: 'All'
+          year_level: 'All'
         },
         columns: [
           { id: 'select', meta: { label: 'Select' }, enableHiding: false, header: this.getTableHeaderSelect },
@@ -87,7 +87,7 @@ export default {
           { id: 'semester_name', meta: { label: 'Semester Name' }, enableSorting: true },
           { id: 'semester_start', meta: { label: 'Start Date' }, enableSorting: true },
           { id: 'semester_end', meta: { label: 'End Date' }, enableSorting: true },
-          { id: 'year.year_name', meta: { label: 'Year Level' }, enableSorting: true }
+          { id: 'year_level.year_name', meta: { label: 'Year Level' }, enableSorting: true }
         ].map(this.transformColumns)
       }
     }
@@ -114,7 +114,7 @@ export default {
         per_page: perPage,
         page: currentPage,
         search: filters.search,
-        year: filters.year
+        year_level: filters.year_level
       }).then(
         ({ data: { items, total_rows: totalRows } }) => ({
           items,
@@ -133,7 +133,7 @@ export default {
     clearFilters() {
       this.tableSemesters.filters = {
         search: '',
-        year: 'All'
+        year_level: 'All'
       }
     },
 

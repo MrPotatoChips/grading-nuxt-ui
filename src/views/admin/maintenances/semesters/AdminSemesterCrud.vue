@@ -43,11 +43,11 @@
 
             <UFormField
               label="Year Level"
-              name="year_id"
+              name="year_level_id"
               required
             >
               <USelectMenu
-                v-model="selected.year"
+                v-model="selected.yearLevel"
                 placeholder="select year level"
                 class="w-full"
                 value-key="id"
@@ -141,7 +141,7 @@ export default {
       modalSemester: false,
       validationSemester: yup.object().shape({
         id: yup.string().nullable(),
-        year_id: yup.string().required().label('year level'),
+        year_level_id: yup.string().required().label('year level'),
         semester_code: yup.string().required().label('semester code'),
         semester_name: yup.string().required().label('semester name'),
         semester_start: yup.string().nullable(),
@@ -149,7 +149,7 @@ export default {
       }),
       formSemester: {
         id: '',
-        year_id: '',
+        year_level_id: '',
         semester_code: '',
         semester_name: '',
         semester_start: '',
@@ -160,8 +160,8 @@ export default {
   },
 
   watch: {
-    'selected.year' (year) {
-      this.formSemester.year_id = year
+    'selected.yearLevel' (yearLevel) {
+      this.formSemester.year_level_id = yearLevel
     }
   },
 
@@ -172,7 +172,7 @@ export default {
 
       this.formSemester = {
         id: '',
-        year_id: '',
+        year_level_id: '',
         semester_code: '',
         semester_name: '',
         semester_start: '',
@@ -180,7 +180,7 @@ export default {
         active: true
       }
 
-      this.selected.year = ''
+      this.selected.yearLevel = ''
 
       this.getYearLevels(this)
 
@@ -192,7 +192,7 @@ export default {
 
       this.formSemester = {
         id: semester.id,
-        year_id: '',
+        year_level_id: '',
         semester_code: semester.semester_code,
         semester_name: semester.semester_name,
         semester_start: semester.semester_start || '',
@@ -201,7 +201,7 @@ export default {
       }
 
       this.getYearLevels(this).finally(() => {
-        this.selected.year = semester.year_id
+        this.selected.yearLevel = semester.year_level_id
       })
 
       this.modalSemester = true
