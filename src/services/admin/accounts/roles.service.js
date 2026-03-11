@@ -13,22 +13,22 @@ export default {
    * @returns {Promise<Object>} The API response containing roles data
    */
   async get (params = {}) {
-    return axios.get('admin/roles', { params })
+    return axios.get('admin/accounts/roles', { params })
   },
 
   async show (id) {
-    return axios.get(`admin/roles/${id}`)
+    return axios.get(`admin/accounts/roles/${id}`)
   },
 
   async post (params = {}) {
-    return axios.post('admin/roles', params)
+    return axios.post('admin/accounts/roles', params)
   },
 
   async put (params = { id: '' }) {
-    return axios.put(`admin/roles/${params.id}`, params)
+    return axios.put(`admin/accounts/roles/${params.id}`, params)
   },
 
   async delete (data = { id: '' }) {
-    return axios.delete(`admin/roles/${data.id}`, { data })
+    return axios.delete(`admin/accounts/roles/${data.id}`, { data })
   }
 }

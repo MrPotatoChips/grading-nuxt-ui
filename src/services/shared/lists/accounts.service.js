@@ -2,18 +2,14 @@ import axios from 'axios'
 
 export default {
   async getRoles (params = {}) {
-    return axios.get('shared/list/roles', { params })
+    return axios.get('shared/lists/accounts/roles', { params })
   },
 
-  async getUsers (params = {}) {
-    return axios.get('shared/list/users', { params })
+  async getStudents (params = {}) {
+    return axios.get('shared/lists/accounts/students', { params })
   },
 
-  async getDGAgents (params = {}) {
-    return axios.get('shared/list/dg-agents', { params })
-  },
-
-  async getGrowers (params = {}) {
-    return axios.get('shared/list/growers', { params })
+  async getTeachers (params = {}) {
+    return axios.get('shared/lists/accounts/teachers', { params })
   }
 }

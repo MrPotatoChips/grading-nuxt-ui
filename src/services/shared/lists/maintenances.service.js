@@ -1,31 +1,27 @@
 import axios from 'axios'
 
 export default {
-  async getActivities (params = {}) {
-    return axios.get('shared/list/activities', { params })
-  },
+	async getColleges (params = {}) {
+		return axios.get('shared/lists/maintenances/colleges', { params })
+	},
 
-  async getCropCategories (params = {}) {
-    return axios.get('shared/list/crop-categories', { params })
-  },
+	async getCourses (params = {}) {
+		return axios.get('shared/lists/maintenances/courses', { params })
+	},
 
-  async getCrops (params = {}) {
-    return axios.get('shared/list/crops', { params })
-  },
+	async getYearLevels (params = {}) {
+		return axios.get('shared/lists/maintenances/year-levels', { params })
+	},
 
-  async getDocumentTypes (params = {}) {
-    return axios.get('shared/list/document-types', { params })
-  },
+	async getSemesters (params = {}) {
+		return axios.get('shared/lists/maintenances/semesters', { params })
+	},
 
-  async getProductGroups (params = {}) {
-    return axios.get('shared/list/product-groups', { params })
-  },
+	async getSections (params = {}) {
+		return axios.get('shared/lists/maintenances/sections', { params })
+	},
 
-  async getProductCategories (params = {}) {
-    return axios.get('shared/list/product-categories', { params })
-  },
-
-  async getProducts (params = {}) {
-    return axios.get('shared/list/products', { params })
-  }
+	async getSubjects (params = {}) {
+		return axios.get('shared/lists/maintenances/subjects', { params })
+	}
 }

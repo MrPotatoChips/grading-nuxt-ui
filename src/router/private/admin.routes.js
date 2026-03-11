@@ -9,7 +9,11 @@ const RAdmin = [
     meta: {
       title: 'Dashboard'
     }
-  },
+  }
+]
+
+const RAdminAccounts = [
+
   {
     path: 'accounts/users',
     name: 'admin.accounts.users',
@@ -59,257 +63,10 @@ const RAdmin = [
         }
       ]
     }
-  },
-  {
-    path: 'accounts/growers',
-    name: 'admin.accounts.growers',
-    component: () => import('@/views/admin/accounts/AdminGrowers.vue'),
-    meta: {
-      title: 'Growers',
-      breadcrumbs: [
-        {
-          label: 'Admin',
-          class: 'text-xs',
-          to: {
-            name: 'admin.dashboard'
-          }
-        },
-        {
-          label: 'Accounts',
-          class: 'text-xs'
-        },
-        {
-          label: 'Growers',
-          class: 'text-xs'
-        }
-      ]
-    }
-  },
-  {
-    path: 'maintenances/document-types',
-    name: 'admin.maintenances.document-types',
-    component: () => import('@/views/admin/maintenances/AdminDocumentTypes.vue'),
-    meta: {
-      title: 'Document Types',
-      breadcrumbs: [
-        {
-          label: 'Admin',
-          class: 'text-xs',
-          to: {
-            name: 'admin.dashboard'
-          }
-        },
-        {
-          label: 'Maintenances',
-          class: 'text-xs'
-        },
-        {
-          label: 'Document Types',
-          class: 'text-xs'
-        }
-      ]
-    }
-  },
-  {
-    path: 'maintenances/activities',
-    name: 'admin.maintenances.activities',
-    component: () => import('@/views/admin/maintenances/AdminActivities.vue'),
-    meta: {
-      title: 'Activities',
-      breadcrumbs: [
-        {
-          label: 'Admin',
-          class: 'text-xs',
-          to: {
-            name: 'admin.dashboard'
-          }
-        },
-        {
-          label: 'Maintenances',
-          class: 'text-xs'
-        },
-        {
-          label: 'Activities',
-          class: 'text-xs'
-        }
-      ]
-    }
-  },
-  {
-    path: 'maintenances/crop-categories',
-    name: 'admin.maintenances.crop-categories',
-    component: () => import('@/views/admin/maintenances/AdminCropCategories.vue'),
-    meta: {
-      title: 'Crop Categories',
-      breadcrumbs: [
-        {
-          label: 'Admin',
-          class: 'text-xs',
-          to: {
-            name: 'admin.dashboard'
-          }
-        },
-        {
-          label: 'Maintenances',
-          class: 'text-xs'
-        },
-        {
-          label: 'Crop Categories',
-          class: 'text-xs'
-        }
-      ]
-    }
-  },
-  {
-    path: 'maintenances/crops',
-    name: 'admin.maintenances.crops',
-    component: () => import('@/views/admin/maintenances/AdminCrops.vue'),
-    meta: {
-      title: 'Crops',
-      breadcrumbs: [
-        {
-          label: 'Admin',
-          class: 'text-xs',
-          to: {
-            name: 'admin.dashboard'
-          }
-        },
-        {
-          label: 'Maintenances',
-          class: 'text-xs'
-        },
-        {
-          label: 'Crops',
-          class: 'text-xs'
-        }
-      ]
-    }
-  },
-  {
-    path: 'maintenances/product-groups',
-    name: 'admin.maintenances.product-groups',
-    component: () => import('@/views/admin/maintenances/AdminProductGroups.vue'),
-    meta: {
-      title: 'Product Groups',
-      breadcrumbs: [
-        {
-          label: 'Admin',
-          class: 'text-xs',
-          to: {
-            name: 'admin.dashboard'
-          }
-        },
-        {
-          label: 'Maintenances',
-          class: 'text-xs'
-        },
-        {
-          label: 'Product Groups',
-          class: 'text-xs'
-        }
-      ]
-    }
-  },
-  {
-    path: 'maintenances/product-categories',
-    name: 'admin.maintenances.product-categories',
-    component: () => import('@/views/admin/maintenances/AdminProductCategories.vue'),
-    meta: {
-      title: 'Product Categories',
-      breadcrumbs: [
-        {
-          label: 'Admin',
-          class: 'text-xs',
-          to: {
-            name: 'admin.dashboard'
-          }
-        },
-        {
-          label: 'Maintenances',
-          class: 'text-xs'
-        },
-        {
-          label: 'Product Categories',
-          class: 'text-xs'
-        }
-      ]
-    }
-  },
-  {
-    path: 'maintenances/products',
-    name: 'admin.maintenances.products',
-    component: () => import('@/views/admin/maintenances/AdminProducts.vue'),
-    meta: {
-      title: 'Products',
-      breadcrumbs: [
-        {
-          label: 'Admin',
-          class: 'text-xs',
-          to: {
-            name: 'admin.dashboard'
-          }
-        },
-        {
-          label: 'Maintenances',
-          class: 'text-xs'
-        },
-        {
-          label: 'Products',
-          class: 'text-xs'
-        }
-      ]
-    }
-  },
-  {
-    path: 'locations/areas',
-    name: 'admin.locations.areas',
-    component: () => import('@/views/admin/locations/AdminAreas.vue'),
-    meta: {
-      title: 'Areas',
-      breadcrumbs: [
-        {
-          label: 'Admin',
-          class: 'text-xs',
-          to: {
-            name: 'admin.dashboard'
-          }
-        },
-        {
-          label: 'Locations',
-          class: 'text-xs'
-        },
-        {
-          label: 'Areas',
-          class: 'text-xs'
-        }
-      ]
-    }
-  },
-  {
-    path: 'locations/clusters',
-    name: 'admin.locations.clusters',
-    component: () => import('@/views/admin/locations/AdminClusters.vue'),
-    meta: {
-      title: 'Clusters',
-      breadcrumbs: [
-        {
-          label: 'Admin',
-          class: 'text-xs',
-          to: {
-            name: 'admin.dashboard'
-          }
-        },
-        {
-          label: 'Locations',
-          class: 'text-xs'
-        },
-        {
-          label: 'Clusters',
-          class: 'text-xs'
-        }
-      ]
-    }
-  },
+  }
+]
+
+const RAdminLocations = [
   {
     path: 'locations/regions',
     name: 'admin.locations.regions',
@@ -412,11 +169,168 @@ const RAdmin = [
   }
 ]
 
+const RAdminMaintenances = [
+  {
+    path: 'maintenances/colleges',
+    name: 'admin.maintenances.colleges',
+    component: () => import('@/views/admin/maintenances/AdminColleges.vue'),
+    meta: {
+      title: 'Colleges',
+      breadcrumbs: [
+        {
+          label: 'Admin',
+          class: 'text-xs',
+          to: {
+            name: 'admin.dashboard'
+          }
+        },
+        {
+          label: 'Maintenances',
+          class: 'text-xs'
+        },
+        {
+          label: 'Colleges',
+          class: 'text-xs'
+        }
+      ]
+    }
+  },
+  {
+    path: 'maintenances/courses',
+    name: 'admin.maintenances.courses',
+    component: () => import('@/views/admin/maintenances/AdminCourses.vue'),
+    meta: {
+      title: 'Courses',
+      breadcrumbs: [
+        {
+          label: 'Admin',
+          class: 'text-xs',
+          to: {
+            name: 'admin.dashboard'
+          }
+        },
+        {
+          label: 'Maintenances',
+          class: 'text-xs'
+        },
+        {
+          label: 'Courses',
+          class: 'text-xs'
+        }
+      ]
+    }
+  },
+  {
+    path: 'maintenances/year-levels',
+    name: 'admin.maintenances.year-levels',
+    component: () => import('@/views/admin/maintenances/AdminYearLevels.vue'),
+    meta: {
+      title: 'Year Levels',
+      breadcrumbs: [
+        {
+          label: 'Admin',
+          class: 'text-xs',
+          to: {
+            name: 'admin.dashboard'
+          }
+        },
+        {
+          label: 'Maintenances',
+          class: 'text-xs'
+        },
+        {
+          label: 'Year Levels',
+          class: 'text-xs'
+        }
+      ]
+    }
+  },
+  {
+    path: 'maintenances/semesters',
+    name: 'admin.maintenances.semesters',
+    component: () => import('@/views/admin/maintenances/AdminSemesters.vue'),
+    meta: {
+      title: 'Semesters',
+      breadcrumbs: [
+        {
+          label: 'Admin',
+          class: 'text-xs',
+          to: {
+            name: 'admin.dashboard'
+          }
+        },
+        {
+          label: 'Maintenances',
+          class: 'text-xs'
+        },
+        {
+          label: 'Semesters',
+          class: 'text-xs'
+        }
+      ]
+    }
+  },
+  {
+    path: 'maintenances/sections',
+    name: 'admin.maintenances.sections',
+    component: () => import('@/views/admin/maintenances/AdminSections.vue'),
+    meta: {
+      title: 'Sections',
+      breadcrumbs: [
+        {
+          label: 'Admin',
+          class: 'text-xs',
+          to: {
+            name: 'admin.dashboard'
+          }
+        },
+        {
+          label: 'Maintenances',
+          class: 'text-xs'
+        },
+        {
+          label: 'Sections',
+          class: 'text-xs'
+        }
+      ]
+    }
+  },
+  {
+    path: 'maintenances/subjects',
+    name: 'admin.maintenances.subjects',
+    component: () => import('@/views/admin/maintenances/AdminSubjects.vue'),
+    meta: {
+      title: 'Subjects',
+      breadcrumbs: [
+        {
+          label: 'Admin',
+          class: 'text-xs',
+          to: {
+            name: 'admin.dashboard'
+          }
+        },
+        {
+          label: 'Maintenances',
+          class: 'text-xs'
+        },
+        {
+          label: 'Subjects',
+          class: 'text-xs'
+        }
+      ]
+    }
+  }
+]
+
 export default [
   {
     path: '/admin',
     component: () => import('@/components/layouts/PrivateLayout.vue'),
-    children: RAdmin.map(
+    children: RAdmin.concat(
+      RAdminAccounts,
+      RAdminMaintenances,
+      RAdminLocations
+    ).map(
       route => Object.assign(route, {
         beforeEnter: [GAuth, GAdmin]
       })

@@ -1,8 +1,7 @@
 import { useAuth } from '@/stores/auth.store'
 
 export default function (to, from, next) {
-  const auth = useAuth()
-  const user = auth.user
+  const { user } = useAuth()
 
   if (!user || user.role !== 'dga') {
     // Redirect to appropriate dashboard or login
